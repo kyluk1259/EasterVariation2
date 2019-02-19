@@ -44,7 +44,7 @@ public class EasterVariation2 {
 	k = (60 * (5 - d) + b) % 4;
 	j = (60 * (5 - d) + b) / 4;
 	m = (a + 11*h + 22*j)/451;
-        n = ((2 * j) - k - g + h);
+        n = ((2 * j) - k - g + h) % 7;
 	month = (g - h +n + 114)/31;
 	p = (g - h +n + 114)%31;
 	day = (p + 1) / 1;
